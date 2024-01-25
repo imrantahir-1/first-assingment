@@ -1,0 +1,20 @@
+.banner {
+    
+    background-image: url('../resources/Banner\ Image.png');
+    position: relative;
+    display: inline-block;
+    /* opacity: .9;     */
+}
+
+
+
+.blur-image {
+    
+    
+   
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+}

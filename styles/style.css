@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: "Merriweather", serif;
+    width: 82%;
 
 }
 
@@ -247,5 +248,108 @@
     gap: 10px;
     border-radius: 8px;
     background: #F00;
-    padding-left: 20px;
+    margin-top: 48px;
+    color: #FFF;
 }
+
+/* start comming soon section */
+#comming-soon-section {
+    width: 82%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+.container .section-heading h3 {
+    color: #F00;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container .section-heading h2 {
+    color: #181819;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.container .section-heading p {
+    color: rgba(19, 6, 48, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 22px;
+    min-height: 128px;
+    min-width: 393px;
+}
+
+.container-image {
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+
+    border: 15px solid #F00;
+}
+
+.image-cercle {
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 463px;
+}
+
+.ontainer-image img {
+
+    text-align: center;
+    /* flex-shrink: 0; */
+
+    /* background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat; */
+}
+.container-2{
+    padding-right: 48px;
+}
+
+.section-heading-2 h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+#paragraph {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.happy-new-banner {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    margin-top: 43px;
+}
+.happy-new-banner img{}

@@ -470,15 +470,31 @@ p {
 
 .button-section {
     display: flex;
+    width: 648px;
+    height: 71px;
+    flex-shrink: 0;
+
+    background: #f8f6f6;
+
+    border: 0;
+    padding-left: 300px;
 }
 
 .gamil-description {
-    width: 648px;
-    height: 72px;
-    flex-shrink: 0;
+
     border-radius: 50px 0px 0px 50px;
-    background: #FFF;
+    text-align: center;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 0;
 }
+
+/* .gamil-description   */
 
 .button-description {
     width: 210px;
@@ -486,4 +502,79 @@ p {
     flex-shrink: 0;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+    font-style: oblique;
+
+}
+
+/* started footer section styles */
+.footer-backgraund {
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    background-color: #070211;
+    margin-top: 120px;
+}
+
+.footer-info {
+    display: flex;
+
+    /* justify-content:space-around; */
+}
+
+.paragraph {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    /* font-weight: 500; */
+    /* line-height: 40px; */
+
+    padding: 130px 409px 140px 100px;
+    /* 166.667% */
+    min-height: 80px;
+    min-width: 375px;
+}
+
+.contrac-with-website p {
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 160px;
+    min-height: 80px;
+    min-width: 375px;
+    /* 166.667% */
+}
+
+.call-png {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 5px;
+}
+
+.mrgin {
+    margin-top: 20px;
+}
+
+/*  */
+
+
+
+/* social meadia icons style */
+.social-meadia-icon {
+    display: flex;
+    margin-left: 640px;
+
+}
+
+.control {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+
+    gap: 20px;
+
 }
